@@ -3,8 +3,8 @@
 #include <Ticker.h>
 
 // --------- KONFIGURATION ---------
-const char* wifi_ssid = ""; // Bibliotekets Wi-Fi
-const char* wifi_pass = "";                 // Tomt lösenord för öppet Wi-Fi
+const char* wifi_ssid = ""; // Add wifi ssid
+const char* wifi_pass = ""; // Empty password for public wifi
 
 ESP8266WebServer server(80);
 
